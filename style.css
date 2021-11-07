@@ -1,0 +1,180 @@
+html	
+body{
+	margin:0;
+	padding: 0;
+    background: lightgrey;
+    scroll-behavior: smooth;
+}
+#okvir{
+	padding:10px;
+	margin:5% 0%;
+	background-color:rgba(255, 255, 255, 0.5);
+	color: black;
+	border:none;
+	border-radius: 10px;
+	text-align: left;
+}
+.pozadinasaznajvise{
+	background: url(slike/pozadina1.jpg);
+	background-size: 100% 100%;
+}
+#okvir2{
+	padding:10px;
+	margin:2% 0%;
+	color: red;
+	text-align: center;
+	margin: 10% 0;
+}
+.ime{
+    color: white;
+    text-align: center;
+    margin-top: 13vw;
+    font-size: 32px;
+  }
+ .projekat{
+    color: white;
+    text-align: center;
+    margin: 2vw 0;
+    text-transform: uppercase;
+    font-size: 66px;
+    font-weight: 600;
+} 
+
+#linija1{
+   text-align: left;
+   height: 3px;
+   background-color: red;
+   width: 30%;
+   border:none;
+}
+#formatslike{
+	width: 400px;
+	height: 400px;
+}
+#formatslike2{
+	width: 420px;
+	height: 300px;
+	margin-top: 20px;
+}
+.jumbotron-header
+{
+	background-image:url(slike/pozadina.jpg);
+	background-size: cover;
+	height: calc(100vh);
+	border-radius: 0;	
+}
+#naslov1{
+	text-align: center;
+	font-weight: bold;
+	font-size: 65px;
+    color:white;
+}
+.prosiri1{
+	padding-top:100px;
+	padding-bottom: 100px;
+
+}
+.prosiri2{
+	padding-top:30px;
+	padding-bottom: 20px;
+}
+.sekcija2{
+	background-color: white;
+	text-align: justify;
+}
+.sekcija3{
+	background-color: red;
+	text-align: right;
+}
+#bojateksta{
+	color: white;
+}
+.slikaposter{
+	margin-top: 15%;
+	height: 85%;
+	width: 100%;
+}
+.dugme{
+	border:2px solid white;
+	padding: 15px 50px;
+	background: none;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+
+}
+.dugme:hover{
+    background-color: white;
+    color: black;
+    padding: 15px 50px;
+    border:2px solid white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.8s ease;
+}
+.navmeni{
+	background: rgba(204, 0, 0,0.8);
+	width: 100%;
+	margin:0;
+	padding: 15px;
+	position: fixed;
+	font-size: 30px;
+	color: white;
+}
+a{
+	color: white;
+}
+a:hover{
+	color: black;
+	border:2px solid white;
+	border-radius: 10px;
+	padding: 2px;
+}
+.navbar-hamburger{
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	text-transform: uppercase;
+	padding-left: 10px;
+}
+.navbar-toggler-icon{
+    background-color: white;
+}
+#linija{
+	height: 3px;
+	width: 25%;
+	background-color: red;
+	text-align: left;
+}
+.obolelipozadina{
+	background:url(slike/svet1.jpg) fixed center;
+	background-size: 100% 100%;
+}
+.oboleliokvir{
+	width:80%;
+	border-radius: 10px;
+	padding: 15px;
+	background-color: red;
+	color: white;
+	font-weight: bold;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 30px;
+	margin-left: 10px;
+}
+.poravnaj{
+	text-align: center;
+}
+footer{
+    background-color:black; 
+    padding:20px 0px; 
+    text-align:center;  
+    font-weight:bold; 
+    color:white; 
+    letter-spacing:2px; 
+}
+
+
+
